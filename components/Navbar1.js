@@ -6,7 +6,6 @@ export default function Navbar1(props) {
   return html`
 
 <nav class="bg-blue-600 shadow-mf">
-<div class="container mx-auto py-4 flex justify-between items-center">
   <h1 class="text-2xl font-bold text-gray-50">${props.title}</h1>
   <div class="flex space-x-10">
     <div class="flex items-center space-x-2">
@@ -42,7 +41,6 @@ export default function Navbar1(props) {
     </span>
     <input class="outline-none" type="text" placeholder="Search" />
   </div>
-</div>
 </nav>`
 
 }

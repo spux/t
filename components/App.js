@@ -1,7 +1,7 @@
 import { html, Component } from '../js/preacthtm.js'
 import '../js/dior.js'
 import getRandomValues from 'https://cdn.skypack.dev/randombytes'
-import Navbar from '../components/Navbar1.js'
+import Navbar from '../components/Navbar2.js'
 import handleMutation from '../js/handlemutation.js'
 
 var privkey = getRandomValues(32)
