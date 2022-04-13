@@ -1,2 +1,2 @@
-# t
-template
+# spuxt
+spux template
